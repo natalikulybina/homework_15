@@ -1,6 +1,5 @@
 const request = new XMLHttpRequest();
 
-
 request.open('GET', 'https://users-api-id.herokuapp.com/users');
 
 request.send();
