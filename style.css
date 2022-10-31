@@ -1,0 +1,33 @@
+html {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+ul {
+  display: flex;
+  gap: 15px;
+  padding: 0;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+li {
+  width: 200px;
+  padding: 5px;
+
+  text-align: center;
+  list-style: none;
+
+  background-color: rgba(75, 73, 67, 0.647);
+  border: 2px solid rgba(26, 25, 24, 0.437);
+
+  border-radius: 10px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h2,
+p {
+  color: rgb(249, 249, 247);
+}
